@@ -6,7 +6,7 @@ print ("Hi "+name+" you're "+age+" years old" )
 if int(age)<18:
     print ("you're not eligible for voting")
     diff=18-int(age)
-    print ("you can vote after ",diff," years")
+    print ("you can vote after "+str(diff)+" years")
 else:
     print ("you're eligible for voting")
 
